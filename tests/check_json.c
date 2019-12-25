@@ -35,7 +35,7 @@ START_TEST (test_json_encode)
 
     const char *json = r3_node_to_json_pretty_string(n);
 
-    printf("JSON: %s\n",json);
+    printf("****JSON: %s\n",json);//cc
 }
 END_TEST
 
